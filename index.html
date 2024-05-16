@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <p>HTML, CSS e JS (clique nas imagens)</p>
+    </div>
+
+    <div class="main">
+
+        <div class="itens">
+
+            <div class="item" id="item1">
+                <img src="img/html.png" alt="" onclick="mostrarLegenda('legenda1')">
+      
+
+                <div class="legenda" id="legenda1"
+                 data-texto="HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.">
+    
+                </div>
+            </div>
+            
+            <div class="item" id="item2">
+                <img src="img/css.png" alt="" onclick="mostrarLegenda('legenda2')">
+                <div class="legenda" id="legenda2"
+                 data-texto="CSS é uma linguagem baseada em regras. — Você define regras especificando grupos de estilo que devem ser aplicados para elementos particulares ou grupos de elementos na sua página web">
+    
+                </div>
+            </div>
+
+            <div class="item" id="item3">
+                <img src="img/js.png" alt="" onclick="mostrarLegenda('legenda3')">
+                <div class="legenda" id="legenda3"
+                 data-texto="JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática">
+    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
